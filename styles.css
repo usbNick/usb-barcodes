@@ -1,5 +1,18 @@
 .grid {
     display: grid;
     grid-template-columns: .25fr .75fr;
+    gap: 3rem;
 }
 
+.flex {
+    flex-direction: column;
+}
+
+.buttons {
+    margin: 1rem 0;
+}
+
+.labels {
+    margin: 1rem 0;
+    display: block;
+}

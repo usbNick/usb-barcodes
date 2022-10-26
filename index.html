@@ -10,15 +10,17 @@
 </head>
 <body>
     <div class="grid">
-        <div>
-            <label for="barcode-entry">Enter barcodes</label>
+        <div class="flex">
+            <label for="barcode-entry" class="labels">Enter barcodes</label>
             <form action="" id="barcodeform">
                 <textarea name="" id="oldbarcodes" cols="30" rows="30"></textarea>
-                <button type="submit" id="submitbutton">Fix barcodes</button>
-                <button onClick="window.location.reload();">Restart</button>
+                <div class="buttons">
+                    <button type="submit" id="submitbutton">Fix barcodes</button>
+                    <button onClick="window.location.reload();">Restart</button>
+                </div>
             </form>
-            
         </div>
+
         <div>
             <h2>Fixed list</h2>
             <ul id="fixedlist">
